@@ -1,4 +1,5 @@
 # Source-code obtained from the first example in http://iamtrask.github.io/2015/07/12/basic-python-network/
+# Keep in mind that this code was written in Python 2
 import numpy as np
 
 # sigmoid function (https://en.wikipedia.org/wiki/Sigmoid_function)
@@ -76,17 +77,17 @@ print layer1
 # What is a sigmoid function? A function that maps any value to a value between 0
 # and 1. We use it to convert numbers to probabilities
 #
-# When you see 'matrix.T', the ".T" stands for 'transpose' and returns the
+# When you see 'matrix.T', the '.T' stands for 'transpose' and returns the
 # transposed version of that matrix
 #
 # Why do you call 'np.random.seed(1)'? To get numbers randomly distributed in
 # the exactly same way each time you train
 #
 # What is 'syn0'? This is our weight matrix for this neural network. It's called
-# "syn0" to imply "synapse zero". Since we only have 2 layers (input and output),
+# 'syn0' to imply 'synapse zero'. Since we only have 2 layers (input and output),
 # we only need one matrix of weights to connect them. Its dimension is (3,1) because
 # we have 3 inputs and 1 output
 #
-# For more information please look at the original article page:
+# For more information please check out the original article:
 # http://iamtrask.github.io/2015/07/12/basic-python-network/
 # -------------------------------------------------------------------------------
